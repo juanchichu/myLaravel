@@ -21,6 +21,10 @@ Route::get('about',function(){
 	return view('pages.about'); // resources/views/pages/about.blade.php
 });
 
+Route::get('pruebas', [
+	'uses'=>'TestController@index'
+	]);
+
 
 
 
