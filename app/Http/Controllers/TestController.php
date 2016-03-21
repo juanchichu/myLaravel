@@ -10,6 +10,6 @@ class TestController extends Controller
 {
     //
     public function index(){
-    	return "Nueva modificacion";
+    	return "Mi nuevo Branch";
     }
 }
